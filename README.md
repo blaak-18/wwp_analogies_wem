@@ -1,2 +1,8 @@
 # wwp_analogies_wem
- 
+
+## Repository Description
+This repo contains data, scripts, and corpora related to developing a set of analogies relevant to historic text for model evaluation tasks. Word Embedding Models are typicaL evaluated by presenting the model with a series of analogies (for example king - man = ?) and assessing how well the model performs when asked to interpret these analogies. Currently, WEMs are typically evaluated used a [set of analogies](https://aclweb.org/aclwiki/Google_analogy_test_set_(State_of_the_art)) developed by Mikolov et al. (2013b), who also created the WEM algorithm Word2Vec. The analogy set contains 19544 question pairs which can be used to evaluate how well the model understands the semantic relationships within its vocabulary. This analogy set, however, reflects more contemporary understandings of vocabulary and semantic relationships and thus is not optimal for evaluating a WEM trained on pre-twentieth century texts. This project is interested in both developing a workflow for creating custom analogies for historic models as well as offering a tentative set of analogies based on data obtained from a series of large corpora of pre-nineteenth century texts.
+
+### Relevant Links
+- [Spreadsheet](https://docs.google.com/spreadsheets/d/1Sr1a-MCy2kpxaA758PcXYfm98giNLPwzGplN9G_1dkY/edit?usp=sharing) of word counts and initial analogy testing
+- [Link](https://www.dropbox.com/scl/fi/xy1b9ctsymwo5p8w4v55h/franken-corpus.zip?rlkey=2p92dwp5rdyco8a9hvurcifs1&dl=0) to a folder containing the entire corpus as a single text file as well as a cleaned version of the same text file with stop words removed
