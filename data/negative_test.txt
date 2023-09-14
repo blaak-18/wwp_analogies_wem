@@ -1,0 +1,5 @@
+: meronyms_part
+phone	cellphone/telephone/wireless
+computer	mac/windows/machine
+electricity	power/lights/electric
+internet	wifi/net
